@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="Assets/LogoAlura.png" type="image/x-icon">
+        <title>DeCÃOdificador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/cripto.css">
+                
+        
+    <script src="js/mobilenavbar.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.alura.com.br/" class="logo-link">
+                <img src="Assets/LogoAluraPNG.png" height="45" width="45" alt="Logo Alura">
+            </a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="inicio.html">INÍCIO</a></li>
+            <li><a href="about.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATOS</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Escreva seu texto aqui" autofocus></textarea>
+                <div class="content_botao">
+                    <span class="info">
+                        <img src="/Assets/exclamacao.png" height="16"width="16"alt="exclamacao" />
+                        Apenas letras minúsculas e sem acento
+                    </span>
+                    <div class="botoes">
+                        <button id="botao_decaodificar" class="botao_decaodificar">DECÃODIFICAR</button>
+                        <button id="botao_descaodificar" class="botao_descaodificar">DESCÃODIFICAR</button>
+                    </div>
+                </div>
+            </section>
+            <section class="lado" id="lado">
+                <img id="doguinho" class="doguinho" src="Assets/Decãodificador.gif" alt="Nenhuma mensagem foi encontrada.">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Nenhuma mensagem foi encontrada🔍"></textarea>
+                <p id="textoInfo" class="info">Escreva um texto no campo ao lado e clique para deCãodificar sua mensagem canina.</p>
+                <button class="botao__copiar bn_ocultar" id="botao__copiar">Copiar</button>
+            </section>
+        </article>
+    </main>  
+    <footer>
+        <div id="footer_contet">
+            <p class="footer_style">&copy; 2024 DeCÃOdificador. Todos os direitos reservados. Desenvolvido por Thuyanne SMS</p>
+        </div>          
+    </footer>
+</body>
+</html>

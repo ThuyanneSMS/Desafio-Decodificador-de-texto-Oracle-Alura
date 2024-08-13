@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Assets/LogoAluraPNG.png" type="image/x-icon">
+    <title>DeCÃOdificador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/slideinicio.css">
+    <link rel="stylesheet" href="styles/cabecalho.css">
+    <link rel="stylesheet" href="styles/mobinavbar.css">
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/mobilenavbar.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.alura.com.br/" class="logo-link">
+                <img src="Assets/LogoAluraPNG.png" height="45" width="45" alt="Logo Alura">
+            </a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="inicio.html">INÍCIO</a></li>
+            <li><a href="about.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATOS</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="Assets/1JPG.jpg" alt="slide 1">
+                <img class="img-mobile" src="Assets/1JPG.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="Assets/2JPG.jpg" alt="slide 3">
+                <img class="img-mobile" src="Assets/2JPG.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="Assets/3JPG.jpg" alt="slide 3">
+                <img class="img-mobile" src="Assets/3JPG.jpg" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+ 
+    <section id="home">
+        <div class="container1">
+            <h2>DECÃODIFICADOR</h2>
+            <p> É um dispositivo especializado em decifrar mensagens secretas caninas. Talvez ele traduza latidos em linguagem humana ou revele onde estão escondidos os biscoitos!.</p>
+            <p><span class="destaque">E lembre-se: quando se trata de cães, a linguagem é tão misteriosa quanto suas travessuras!.</span></p>
+
+            <p><span class="woofes">Woofês  </span> Uma combinação de “woof” (o som que os cães fazem) e “francês”. Afinal, os cães têm um jeito todo especial de se comunicar, não é mesmo?</p>
+            <p><span class="lingaones">Lingãonês </span>Parece a língua secreta que os cães usam quando querem compartilhar suas travessuras sem que os humanos entendam.</p>
+            <p><span class="caones">Cãonês </span> Inspirado no “canine” (que significa “canino” em inglês), o Cãonês seria a língua universal dos peludos de quatro patas.🐾</p>
+                
+                <button class="botao__inicio" onclick="window.location.href='index.html'">DECÃODIFICAR LATIDOS</button>
+        </div>
+    </section>
+    <footer>
+        <div id="footer_contet">
+                <p class="footer_style">&copy; 2024 DeCÃOdificador. Todos os direitos reservados. Desenvolvido por Thuyanne SMS</p>
+        </div>          
+    </footer>
+</body>
+</html>
