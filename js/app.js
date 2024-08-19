@@ -88,8 +88,12 @@ descaodificar.addEventListener('click', () => {
 
 copia.addEventListener("click", () => {
 	let texto = textFinal;
-	texto.select();
-	document.execCommand('copia');
+	let range = document.createRange();
+	range.selectNodeContents(texto);
+	let selection = window.getSelection();
+	selection.removeAllRanges();
+	selection.addRange(range);
+	document.execCommand('copy');
 	
 	alert("Texto Copiado");
 	reset();
